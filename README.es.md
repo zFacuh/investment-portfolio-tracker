@@ -44,7 +44,7 @@ y trae varios temas visuales (botón Diseño).
 
 ## Instalación
 
-1. Descargá `Investment Portfolio Tracker_<versión>_x64-setup.exe` desde la
+1. Descargá `Investment-Portfolio-Tracker-<versión>-setup.exe` desde la
    [última versión](https://github.com/zFacuh/investment-portfolio-tracker/releases/latest).
 2. Ejecutalo. El instalador no está firmado, así que Windows SmartScreen puede
    decir *"Windows protegió su PC"*: hacé clic en **Más información →
