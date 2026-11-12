@@ -1,0 +1,85 @@
+/*
+ * Valores por defecto de los tokens de diseno (equivalen al tema Grafito).
+ * Los temas reales viven en src/theme/diseno.ts: aplicarDiseno() escribe estas
+ * mismas variables sobre :root al elegir o editar un tema, y los graficos
+ * (ECharts) toman sus colores del mismo objeto de diseno.
+ */
+
+:root {
+  color-scheme: dark;
+
+  /* Superficies */
+  --bg: #0b0c0e;
+  --surface: #131417;
+  --surface-2: #1a1c20;
+  --border: #24262b;
+  --border-strong: #363940;
+
+  /* Texto */
+  --text: #edeef0;
+  --muted: #9a9ea7;
+  --faint: #6c707a;
+
+  /* Semanticos */
+  --accent: #5b8def;
+  --accent-contrast: #ffffff;
+  --accent-2: #46b3a4;
+  --pos: #3fb27f;
+  --neg: #e5484d;
+  --warn: #e2a336;
+
+  /* Categorias */
+  --cat-core: #7ea6f4;
+  --cat-sat: #5cc49a;
+  --cat-otra: #b39dfa;
+  --cat-muted: #8b8f98;
+
+  /* Graficos */
+  --chart-1: #5b8def;
+  --chart-2: #46b3a4;
+  --chart-3: #d9a441;
+  --chart-4: #9b8afb;
+  --chart-5: #e07a5f;
+  --chart-6: #6cb85c;
+  --chart-7: #c77dba;
+  --chart-8: #7a8fa6;
+  --chart-grid: #1f2126;
+  --line-valor: #5b8def;
+  --line-capital: #8b8f98;
+  --bench-1: #d9a441;
+  --bench-2: #9b8afb;
+  --bench-3: #46b3a4;
+  --bench-4: #e07a5f;
+  --bench-5: #c77dba;
+
+  /* Forma */
+  --radius-card: 10px;
+  --radius-ctrl: 8px;
+  --radius-pill: 99px;
+  --border-width: 1px;
+  --shadow-card: none;
+
+  /* Tipografia */
+  --font-body: "Inter Variable", system-ui, sans-serif;
+  --font-num: "Inter Variable", system-ui, sans-serif;
+  --weight-heading: 600;
+  --fs-kpi: 26px;
+
+  /* Vidrio, visor y etiquetas (los temas los sobreescriben) */
+  --glass-blur: 0px;
+  --glass-sat: 100%;
+  --glass-rim: 0;
+  --tooltip-bg: rgba(26, 28, 32, 0.97);
+  --display-bg: #0e0f12;
+  --display-fg: #edeef0;
+  --font-display: "Inter Variable", system-ui, sans-serif;
+  --label-transform: none;
+  --label-tracking: 0;
+  --fila-pad: 9px;
+
+  /* Densidad */
+  --gap: 18px;
+  --pad-card: 18px 20px;
+  --pad-page: 28px 36px 48px;
+  --sidebar-w: 220px;
+}

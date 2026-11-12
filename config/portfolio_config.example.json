@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "moneda_base": "ARS",
+    "broker": "Cocos Capital",
+    "mercado": "BYMA",
+    "version": 1,
+    "ultima_actualizacion": "2026-11-12 00:00:00",
+    "benchmark_tickers": [
+      "SPY",
+      "QQQ",
+      {
+        "ticker": "IBIT",
+        "label": "BTC"
+      },
+      "EEM"
+    ]
+  },
+  "categorias": {
+    "Core": {
+      "objetivo_pct": 70.0,
+      "descripcion": "Nucleo: ETFs amplios + bitcoin."
+    },
+    "Satelite": {
+      "objetivo_pct": 30.0,
+      "descripcion": "Acciones individuales de mayor riesgo/retorno."
+    }
+  },
+  "activos": {
+    "SPY": {
+      "nombre": "SPDR S&P 500 ETF Trust",
+      "categoria": "Core",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 50.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "SPY.BA"
+    },
+    "QQQ": {
+      "nombre": "Invesco QQQ Trust",
+      "categoria": "Core",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 30.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "QQQ.BA"
+    },
+    "IBIT": {
+      "nombre": "iShares Bitcoin Trust (BTC)",
+      "categoria": "Core",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 20.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "IBIT.BA"
+    },
+    "AAPL": {
+      "nombre": "Apple Inc.",
+      "categoria": "Satelite",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 35.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "AAPL.BA"
+    },
+    "MELI": {
+      "nombre": "MercadoLibre Inc.",
+      "categoria": "Satelite",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 35.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "MELI.BA"
+    },
+    "NVDA": {
+      "nombre": "NVIDIA Corporation",
+      "categoria": "Satelite",
+      "tipo": "CEDEAR",
+      "objetivo_pct_categoria": 30.0,
+      "fuente_datos": "yfinance",
+      "ticker_yfinance": "NVDA.BA"
+    }
+  }
+}

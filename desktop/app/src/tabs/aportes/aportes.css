@@ -1,0 +1,4 @@
+/* Pestana Aportes y dividendos (solo tokens). */
+.mini-kpis.tres { grid-template-columns: repeat(3, 1fr); }
+.compras-ctrl { display: flex; align-items: center; gap: 10px; }
+.compras-ctrl select { width: 120px; }

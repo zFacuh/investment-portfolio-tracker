@@ -1,0 +1,21 @@
+[theme]
+# v9.0 -- Temas intercambiables (ver ui/themes.py).
+# Estos valores son solo el "piso" del PRIMER arranque del servidor (tema
+# Grafito). Apenas corre app.py, ui.themes.aplicar_tema() sobreescribe el
+# tema con el que elegiste en la sidebar (guardado en config/ui_prefs.json).
+# No hace falta tocar este archivo para cambiar de tema.
+base = "dark"
+primaryColor = "#5B8DEF"
+backgroundColor = "#0B0C0E"
+secondaryBackgroundColor = "#1A1C20"
+textColor = "#EDEEF0"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

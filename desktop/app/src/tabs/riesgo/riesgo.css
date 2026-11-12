@@ -1,0 +1,32 @@
+/* Pestana Riesgo (solo tokens). Reusa .hm-* de rendimiento.css para la matriz. */
+
+
+.rf { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 14px; font-size: 12px; }
+.rf .campo { width: 200px; }
+.pct-rf { display: flex; align-items: center; gap: 4px; }
+.pct-rf input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: var(--text); font: inherit; font-family: var(--font-num); }
+.pct-rf input::-webkit-inner-spin-button { -webkit-appearance: none; }
+.pct-rf span { color: var(--faint); }
+
+.mini-kpis.cinco { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 1100px) { .mini-kpis.cinco { grid-template-columns: repeat(3, 1fr); } }
+
+.tabla tr.clickeable { cursor: pointer; }
+
+.tres-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+@media (max-width: 1100px) { .tres-col { grid-template-columns: 1fr; } }
+.barras-h { display: flex; flex-direction: column; gap: 7px; }
+.barra-h { display: grid; grid-template-columns: minmax(90px, 1.1fr) 1fr 38px; gap: 8px; align-items: center; font-size: 12.5px; }
+.barra-h-nombre { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
+.barra-h-pista { height: 6px; background: var(--surface-2); border-radius: var(--radius-pill); overflow: hidden; }
+.barra-h-pista div { height: 100%; background: var(--accent); border-radius: var(--radius-pill); }
+.barra-h-val { text-align: right; color: var(--muted); font-family: var(--font-num); }
+
+.expo-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: start; }
+@media (max-width: 1100px) { .expo-grid { grid-template-columns: 1fr; } }
+.badge.superp { margin-left: 8px; }
+.lista-btc { margin: 12px 0 0; padding-left: 18px; font-size: 12.5px; color: var(--muted); line-height: 1.6; }
+.lista-btc b { color: var(--text); }
+
+.corr { display: grid; gap: 3px; font-family: var(--font-num); font-size: 11.5px; }
+.corr .hm-celda { height: 30px; }

@@ -1,0 +1,16 @@
+/* Pestana Rendimiento (solo tokens). */
+
+.rend-barra { display: flex; justify-content: space-between; align-items: center; }
+.rend-barra > div { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.rend-nota { font-size: 12px; }
+.rend-desde { font-size: 12px; margin-top: calc(var(--gap) * -0.5); }
+
+.tabla tbody tr { cursor: default; }
+
+.tir-controles { display: grid; grid-template-columns: minmax(260px, 420px) auto; justify-content: start; gap: 12px; align-items: end; }
+
+.heatmap { display: grid; gap: 3px; font-family: var(--font-num); font-size: 12px; }
+.hm-total { background: var(--surface-2); font-weight: 650; }
+.hm-total.pos { color: var(--pos); }
+.hm-total.neg { color: var(--neg); }
+

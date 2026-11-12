@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------------------
+# Your personal data: never committed (each user creates their own)
+# ---------------------------------------------------------------------------
+# Broker transaction CSVs (put yours here; see README)
+data/movimientos/
+# Portfolio and preferences (created on first run from the .example files)
+config/portfolio_config.json
+config/metas.json
+config/ui_prefs.json
+config/diseno_escritorio.json
+data/manual_holdings.json
+data/diario.json
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Generated / local files
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+data/cache/*
+!data/cache/.gitkeep
+
+# Machine-specific build settings (e.g. a custom Rust target dir)
+desktop/app/src-tauri/.cargo/
+# Packaged Python engine (built by desktop/scripts/build_engine.py)
+desktop/app/src-tauri/engine-dist/ipt-engine/*
+!desktop/app/src-tauri/engine-dist/ipt-engine/README.md
+
+# Local working notes, design-tool files and old backups
+.claude/
+.impeccable/
+_backup_*/
+ANALISIS_REVISION.md
+DESIGN.md
+PRODUCT.md
+docs/temas/
+docs/v10/
